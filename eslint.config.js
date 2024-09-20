@@ -34,7 +34,7 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      ...reactThree.rules
+      ...reactThree.configs.recommended.rules
     }
   },
 ]
